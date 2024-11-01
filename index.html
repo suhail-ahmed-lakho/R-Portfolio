@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhail Ahmed Lakho - Front-End Web Developer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top p-3 navbar-light">
+        <div class="container">
+          <!-- Logo/Brand -->
+          <a class="navbar-brand fw-bold" href="#home">
+            <span class="text-primary">S</span>AL
+            <span class="brand-dot"></span>
+          </a>
+
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link px-3 active" href="#home">
+                  <i class="bi bi-house-door me-1"></i>Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#about">
+                  <i class="bi bi-person me-1"></i>About Me
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#projects">
+                  <i class="bi bi-code-square me-1"></i>Projects
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#skills">
+                  <i class="bi bi-gear me-1"></i>Skills
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#certifications">
+                  <i class="bi bi-award me-1"></i>Certifications
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#education">
+                  <i class="bi bi-mortarboard me-1"></i>Education
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3 contact-btn" href="#contact">
+                  <i class="bi bi-envelope me-1"></i>Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="min-vh-100 d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+              <!-- Greeting Text -->
+              <p class="text-primary mb-2 fade-in-up">
+                <span class="border-bottom border-primary">Hello, I'm</span>
+              </p>
+              
+              <!-- Name with animated gradient -->
+              <h1 id="animated-name" class="display-3 fw-bold gradient-text mb-3">
+                Suhail Ahmed Lakho
+              </h1>
+              
+              <!-- Animated role text -->
+              <div class="position-relative mb-4">
+                <h2 class="text-dark fs-3 role-text">
+                  <span class="role-wrapper">
+                    <span class="letters">Front-End Web Developer</span>
+                  </span>
+                </h2>
+              </div>
+              
+              <!-- Contact info with icons -->
+              <p class="text-secondary fade-in-up mb-4">
+                <span class="me-3">
+                  <i class="bi bi-phone-vibrate me-2"></i>+92-307-8235748
+                </span>
+                <span>
+                  <i class="bi bi-envelope me-2"></i>Suhaillakho.xwave@gmail.com
+                </span>
+              </p>
+              
+              <!-- Social links with hover effects -->
+              <div class="social-links fade-in-up">
+                <a href="https://linkedin.com/in/suhail-ahmed-lakho" target="_blank" 
+                   class="btn btn-outline-primary btn-lg mx-2 social-btn">
+                  <i class="bi bi-linkedin"></i>
+                  <span class="social-text">LinkedIn</span>
+                </a>
+                <a href="https://github.com/suhail-lakho" target="_blank" 
+                   class="btn btn-outline-primary btn-lg mx-2 social-btn">
+                  <i class="bi bi-github"></i>
+                  <span class="social-text">GitHub</span>
+                </a>
+                <a href="./resume.pdf" target="_blank" 
+                   class="btn btn-outline-primary btn-lg mx-2 social-btn">
+                  <i class="bi bi-file-earmark-text"></i>
+                  <span class="social-text">Resume</span>
+                </a>
+              </div>
+              
+              <!-- Scroll down indicator -->
+              <div class="scroll-down fade-in mt-5">
+                <a href="#about" class="text-dark">
+                  <i class="bi bi-mouse"></i>
+                  <span class="ms-2">Scroll Down</span>
+                  <div class="scroll-down-arrow">
+                    <i class="bi bi-arrow-down"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Background decoration -->
+        <div class="shape-blob"></div>
+        <div class="shape-blob two"></div>
+      </section>
+
+      <section id="about" class="section-padding">
+        <!-- Section Title -->
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              About <span class="highlight">Me</span>
+            </h2>
+          </div>
+
+          <div class="row align-items-center">
+            <!-- Left Column - Image -->
+            <div class="col-lg-5">
+              <div class="about-image-wrapper">
+                <div class="image-container">
+                  <div class="image-bg-shape"></div>
+                  <img src="./my photo.jpg" alt="Profile" class="img-fluid">
+                  <!-- Experience Badge -->
+                  <div class="experience-badge">
+                    <div class="badge-content p-2">
+                      <span class="counter" data-target="1">1</span>
+                      <span class="plus">+</span>
+                      <span class="text">Year<br>Experience</span>
+                    </div>
+                    <svg class="badge-border" viewBox="0 0 100 100">
+                      <circle cx="50" cy="50" r="45"/>
+                    </svg>
+                  </div>
+                  <!-- Project Count Badge -->
+                  <div class="project-badge">
+                    <span class="counter" data-target="15">20</span>
+                    <span class="text">Projects</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column - Content -->
+            <div class="col-lg-7">
+              <div class="about-content">
+                <h3 class="role-title">Front-End Web Developer</h3>
+                <p class="about-description">
+                  I'm a passionate front-end web developer with a keen eye for creating responsive 
+                  and user-friendly websites. Currently pursuing a Bachelor's degree in Science, 
+                  I'm dedicated to honing my skills in modern web technologies.
+                </p>
+
+                <div class="info-grid">
+                  <div class="info-item">
+                    <i class="bi bi-geo-alt"></i>
+                    <div class="info-text">
+                      <span class="label">Location:</span>
+                      <span class="value">Khairpur, Pakistan</span>
+                    </div>
+                  </div>
+                  <div class="info-item">
+                    <i class="bi bi-envelope"></i>
+                    <div class="info-text">
+                      <span class="label">Email:</span>
+                      <span class="value">Suhaillakho.xwave@gmail.com</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="about-cta-buttons">
+                  <a href="./resume.pdf" download class="about-btn about-btn-primary">
+                    <span class="about-btn-content">
+                      <i class="fas fa-download"></i>
+                      <span>Download CV</span>
+                    </span>
+                    <div class="btn-glow"></div>
+                  </a>
+                  
+                  <a href="#contact" class="about-btn about-btn-outline">
+                    <span class="about-btn-content">
+                      <i class="fas fa-paper-plane"></i>
+                      <span>Contact Me</span>
+                    </span>
+                    <div class="btn-particles"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <!-- Background Elements -->
+        <div class="project-bg-shape project-bg-shape-1"></div>
+        <div class="project-bg-shape project-bg-shape-2"></div>
+
+        <div class="container">
+          <!-- Section Header -->
+          <div class="project-header" data-aos="fade-up">
+            <h2 class="project-title">
+              My Creative <span class="project-title-gradient">Portfolio</span>
+            </h2>
+            <p class="project-subtitle">
+              Discover my work and the innovative solutions I've crafted
+            </p>
+          </div>
+
+          <!-- Project Filters -->
+          <div class="project-filter-container" data-aos="fade-up" data-aos-delay="100">
+            <button class="project-filter-btn active" data-filter="all">All Projects</button>
+            <button class="project-filter-btn" data-filter="web">Web Design</button>
+            <button class="project-filter-btn" data-filter="app">E-Commerce</button>
+            <button class="project-filter-btn" data-filter="other">Other</button>
+          </div>
+
+          <div class="row g-4">
+            <!-- E-Commerce Project Card -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="project-flip-card">
+                <div class="project-flip-inner">
+                  <!-- Front Side -->
+                  <div class="project-flip-front">
+                    <div class="project-status-badge">Featured</div>
+                    <div class="project-image-wrapper">
+                      <img class="project-image" src="./Screenshot 2024-11-01 102426.png" alt="E-commerce Website">
+                      <div class="project-image-overlay">
+                        <div class="project-overlay-content">
+                          <i class="fas fa-plus"></i>
+                          <span>View Details</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-name">E-Commerce Platform</h3>
+                      <p class="project-description">Modern online shopping experience with responsive design</p>
+                      <div class="project-tech-stack">
+                        <span class="project-tech-pill">HTML5</span>
+                        <span class="project-tech-pill">CSS3</span>
+                        <span class="project-tech-pill">Bootstrap</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Back Side -->
+                  <div class="project-flip-back">
+                    <div class="project-back-content">
+                      <!-- Top Content -->
+                      <div>
+                        <h3 class="project-back-title">Modern E-Commerce Platform</h3>
+                        <p class="project-back-description">
+                          A fully responsive e-commerce website featuring modern design patterns and seamless user experience.
+                        </p>
+                        
+                        <div class="project-features-list">
+                          <div class="project-feature-item">
+                            <i class="fas fa-mobile-alt project-feature-icon"></i>
+                            <span>Responsive Design</span>
+                          </div>
+                          <div class="project-feature-item">
+                            <i class="fas fa-shopping-cart project-feature-icon"></i>
+                            <span>Shopping Cart</span>
+                          </div>
+                          <div class="project-feature-item">
+                            <i class="fas fa-search project-feature-icon"></i>
+                            <span>Product Search</span>
+                          </div>
+                        </div>
+
+                        <div class="project-tech-details">
+                          <h4 class="project-tech-title">Technologies Used:</h4>
+                          <div class="project-tech-stack">
+                            <span class="project-tech-pill">HTML5</span>
+                            <span class="project-tech-pill">CSS3</span>
+                            <span class="project-tech-pill">Bootstrap 5</span>
+                            <span class="project-tech-pill">JavaScript</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Bottom Buttons -->
+                      <div class="project-action-links ">
+                        <a href="https://capstone-2-seven.vercel.app/index.html" 
+                           class="project-link-btn project-link-live" 
+                           target="_blank">
+                          <i class="fas fa-external-link-alt"></i>
+                          Live Demo
+                        </a>
+                        <a href="https://github.com/suhail-lakho/ecommerce-project" 
+                           class="project-link-btn project-link-code" 
+                           target="_blank">
+                          <i class="fab fa-github"></i>
+                          Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Food Delivery Project Card -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="project-flip-card">
+                <div class="project-flip-inner">
+                  <!-- Front Side -->
+                  <div class="project-flip-front">
+                    <div class="project-status-badge">Latest</div>
+                    <div class="project-image-wrapper">
+                      <img class="project-image" src="./food-deleivery.png" alt="Food Delivery Website">
+                      <div class="project-image-overlay">
+                        <div class="project-overlay-content">
+                          <i class="fas fa-plus"></i>
+                          <span>View Details</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-name">Food Delivery Landing</h3>
+                      <p class="project-description">Elegant landing page for food delivery service</p>
+                      <div class="project-tech-stack">
+                        <span class="project-tech-pill">HTML5</span>
+                        <span class="project-tech-pill">CSS3</span>
+                        <span class="project-tech-pill">JavaScript</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Back Side -->
+                  <div class="project-flip-back">
+                    <div class="project-back-content">
+                      <!-- Top Content -->
+                      <div>
+                        <h3 class="project-back-title">Food Delivery Landing Page</h3>
+                        <p class="project-back-description">
+                          An elegant and user-friendly landing page featuring smooth animations and intuitive interface.
+                        </p>
+                        
+                        <div class="project-features-list">
+                          <div class="project-feature-item">
+                            <i class="fas fa-paint-brush project-feature-icon"></i>
+                            <span>Modern Design</span>
+                          </div>
+                          <div class="project-feature-item">
+                            <i class="fas fa-magic project-feature-icon"></i>
+                            <span>Animations</span>
+                          </div>
+                          <div class="project-feature-item">
+                            <i class="fas fa-tachometer-alt project-feature-icon"></i>
+                            <span>Fast Loading</span>
+                          </div>
+                        </div>
+
+                        <div class="project-tech-details">
+                          <h4 class="project-tech-title">Technologies Used:</h4>
+                          <div class="project-tech-stack">
+                            <span class="project-tech-pill">HTML5</span>
+                            <span class="project-tech-pill">CSS3</span>
+                            <span class="project-tech-pill">JavaScript</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Bottom Buttons -->
+                      <div class="project-action-links">
+                        <a href="https://food-deleivery-website.vercel.app/" 
+                           class="project-link-btn project-link-live" 
+                           target="_blank">
+                          <i class="fas fa-external-link-alt"></i>
+                          Live Demo
+                        </a>
+                        <a href="https://github.com/suhail-lakho/food-delivery" 
+                           class="project-link-btn project-link-code" 
+                           target="_blank">
+                          <i class="fab fa-github"></i>
+                          Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Furniture Website Project Card -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="project-flip-card">
+                <div class="project-flip-inner">
+                  <!-- Front Side -->
+                  <div class="project-flip-front">
+                    <div class="project-status-badge">UI/UX</div>
+                    <div class="project-image-wrapper">
+                      <img class="project-image" src="./furniture.png" alt="Furniture Website">
+                      <div class="project-image-overlay">
+                        <div class="project-overlay-content">
+                          <i class="fas fa-plus"></i>
+                          <span>View Details</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="project-content">
+                      <h3 class="project-name">Furniture Store Website</h3>
+                      <p class="project-description">Modern furniture shopping experience</p>
+                      <div class="project-tech-stack">
+                        <span class="project-tech-pill">HTML5</span>
+                        <span class="project-tech-pill">CSS3</span>
+                        <span class="project-tech-pill">Figma</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Back Side -->
+                  <div class="project-flip-back">
+                    <div class="project-back-content">
+                      <!-- Top Content -->
+                      <div>
+                        <h3 class="project-back-title">Furniture Store Website</h3>
+                        <p class="project-back-description">
+                          A beautifully designed furniture store website with focus on visual appeal and user experience.
+                        </p>
+                        
+                        <div class="project-features-list">
+                          <div class="project-feature-item">
+                            <i class="fas fa-vector-square project-feature-icon"></i>
+                            <span>Figma Design</span>
+                          </div>
+                          <div class="project-feature-item">
+                            <i class="fas fa-laptop project-feature-icon"></i>
+                            <span>Responsive</span>
+                          </div>
+                          <div class="project-feature-item">
+                            <i class="fas fa-swatchbook project-feature-icon"></i>
+                            <span>Modern UI</span>
+                          </div>
+                        </div>
+
+                        <div class="project-tech-details">
+                          <h4 class="project-tech-title">Technologies Used:</h4>
+                          <div class="project-tech-stack">
+                            <span class="project-tech-pill">HTML5</span>
+                            <span class="project-tech-pill">CSS3</span>
+                            <span class="project-tech-pill">Figma</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Bottom Buttons -->
+                      <div class="project-action-links">
+                        <a href="https://food-deleivery-1.vercel.app/" 
+                           class="project-link-btn project-link-live" 
+                           target="_blank">
+                          <i class="fas fa-external-link-alt"></i>
+                          Live Demo
+                        </a>
+                        <a href="https://github.com/suhail-lakho/furniture-website" 
+                           class="project-link-btn project-link-code" 
+                           target="_blank">
+                          <i class="fab fa-github"></i>
+                          Source Code
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View More Section -->
+          <div class="project-view-more-container" data-aos="fade-up" data-aos-delay="500">
+            <div class="project-view-more-wrapper">
+              <a href="https://github.com/suhail-lakho" class="project-view-more-btn" target="_blank">
+                <span class="btn-content">
+                  <span class="btn-text">View More Projects</span>
+                  <span class="btn-icon">
+                    <i class="fas fa-arrow-right"></i>
+                  </span>
+                </span>
+                <span class="btn-particles"></span>
+              </a>
+            </div>
+          </div>
+
+    
+        </div>
+      </section>
+
+      <section id="skills" class="section-padding">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header text-center">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <p class="section-subtitle">Technologies I work with</p>
+          </div>
+
+          <!-- Skills Grid -->
+          <div class="skills-grid">
+            <!-- Frontend Fundamentals -->
+            <div class="skill-category">
+              <h3 class="category-title">Frontend Fundamentals</h3>
+              <div class="skill-cards">
+                <div class="skill-card">
+                  <i class="fab fa-html5 skill-icon"></i>
+                  <h4>HTML5</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%">
+                        <span class="progress-tooltip">90%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Semantic HTML</span>
+                    <span class="skill-tag">SEO</span>
+                    <span class="skill-tag">Forms</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fab fa-css3-alt skill-icon"></i>
+                  <h4>CSS3</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%">
+                        <span class="progress-tooltip">85%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Flexbox</span>
+                    <span class="skill-tag">Grid</span>
+                    <span class="skill-tag">Animations</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fab fa-js skill-icon"></i>
+                  <h4>JavaScript</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%">
+                        <span class="progress-tooltip">70%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">ES6+</span>
+                    <span class="skill-tag">DOM</span>
+                    <span class="skill-tag">APIs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Frameworks & Libraries -->
+            <div class="skill-category">
+              <h3 class="category-title">Frameworks & Libraries</h3>
+              <div class="skill-cards">
+                <div class="skill-card">
+                  <i class="fab fa-bootstrap skill-icon"></i>
+                  <h4>Bootstrap</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%">
+                        <span class="progress-tooltip">80%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Grid System</span>
+                    <span class="skill-tag">Components</span>
+                    <span class="skill-tag">Utilities</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fab fa-react skill-icon"></i>
+                  <h4>React</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%">
+                        <span class="progress-tooltip">60%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Components</span>
+                    <span class="skill-tag">Hooks</span>
+                    <span class="skill-tag">State</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category">
+              <h3 class="category-title">Tools & Design</h3>
+              <div class="skill-cards">
+                <div class="skill-card">
+                  <i class="fab fa-github skill-icon"></i>
+                  <h4>Version Control</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%">
+                        <span class="progress-tooltip">75%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">CLI</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fas fa-palette skill-icon"></i>
+                  <h4>UI/UX Design</h4>
+                  <div class="progress-wrapper">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%">
+                        <span class="progress-tooltip">80%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Responsive</span>
+                    <span class="skill-tag">Wireframing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section-padding">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="section-header">
+            <h2 class="section-title">
+              My <span class="highlight">Certifications</span>
+            </h2>
+            <p class="section-subtitle">Professional Training & Achievements</p>
+          </div>
+
+          <div class="row g-4">
+            <!-- xWave Certification -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="cert-card">
+                <div class="cert-status">
+                  <span class="status-badge ongoing">Ongoing</span>
+                </div>
+                <div class="cert-icon">
+                  <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                  <h3 class="cert-title">Front-End Web Development</h3>
+                  <p class="cert-issuer">xWave Technologies</p>
+                  <div class="cert-details">
+                    <ul>
+                      <li><i class="fas fa-check-circle"></i> HTML5, CSS3, Bootstrap 5</li>
+                      <li><i class="fas fa-check-circle"></i> JavaScript & React.js</li>
+                      <li><i class="fas fa-check-circle"></i> Modern Development Practices</li>
+                    </ul>
+                  </div>
+                  <div class="cert-footer">
+                    <a href="#" class="cert-btn">
+                      <span>View Details</span>
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- FreeCodeCamp Certification -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="cert-card">
+                <div class="cert-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+                <div class="cert-icon">
+                  <i class="fab fa-free-code-camp"></i>
+                </div>
+                <div class="cert-content">
+                  <h3 class="cert-title">Responsive Web Design</h3>
+                  <p class="cert-issuer">FreeCodeCamp</p>
+                  <div class="cert-details">
+                    <ul>
+                      <li><i class="fas fa-check-circle"></i> Responsive Design Techniques</li>
+                      <li><i class="fas fa-check-circle"></i> Mobile-First Approach</li>
+                      <li><i class="fas fa-check-circle"></i> CSS Grid & Flexbox</li>
+                    </ul>
+                  </div>
+                  <div class="cert-footer">
+                    <a href="#" class="cert-btn">
+                      <span>View Certificate</span>
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CodeAlpha Certification -->
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="cert-card">
+                <div class="cert-status">
+                  <span class="status-badge completed">Completed</span>
+                </div>
+                <div class="cert-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="cert-content">
+                  <h3 class="cert-title">Front-End Development</h3>
+                  <p class="cert-issuer">CodeAlpha</p>
+                  <div class="cert-details">
+                    <ul>
+                      <li><i class="fas fa-check-circle"></i> Web Application Development</li>
+                      <li><i class="fas fa-check-circle"></i> Modern JS Frameworks</li>
+                      <li><i class="fas fa-check-circle"></i> Git & GitHub Version Control</li>
+                    </ul>
+                  </div>
+                  <div class="cert-footer">
+                    <a href="#" class="cert-btn">
+                      <span>View Certificate</span>
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Background Shapes -->
+        <div class="shape-blob cert-blob-1"></div>
+        <div class="shape-blob cert-blob-2"></div>
+      </section>
+
+      <section id="education" class="section-padding">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h2 class="section-title">My <span class="highlight">Education</span></h2>
+            <p class="section-subtitle">Academic Background & Achievements</p>
+          </div>
+
+          <div class="timeline" data-aos="fade-up">
+            <!-- University -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-content">
+                <div class="education-card">
+                  <div class="education-icon">
+                    <i class="bi bi-mortarboard-fill"></i>
+                  </div>
+                  <div class="education-details">
+                    <h3 class="education-title">Shah Abdul Latif University</h3>
+                    <div class="education-meta">
+                      <span class="education-period">
+                        <i class="bi bi-calendar-event me-2"></i>2021-Present
+                      </span>
+                      <span class="education-location">
+                        <i class="bi bi-geo-alt me-2"></i>Khairpur, Pakistan
+                      </span>
+                    </div>
+                    <p class="education-type">Bachelors of Science</p>
+                    <div class="education-subjects">
+                      <span class="subject-tag">
+                        <i class="bi bi-calculator me-1"></i>Mathematics
+                      </span>
+                      <span class="subject-tag">
+                        <i class="bi bi-atom me-1"></i>Physics
+                      </span>
+                      <span class="subject-tag">
+                        <i class="bi bi-cpu me-1"></i>Computer Science
+                      </span>
+                    </div>
+                    <div class="education-achievements">
+                      <h4 class="achievements-title">Key Achievements:</h4>
+                      <ul class="achievements-list">
+                        <li><i class="bi bi-trophy me-2"></i>Dean's List Recognition</li>
+                        <li><i class="bi bi-star me-2"></i>First Division with Distinction</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- College -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-content">
+                <div class="education-card">
+                  <div class="education-icon">
+                    <i class="bi bi-building-fill"></i>
+                  </div>
+                  <div class="education-details">
+                    <h3 class="education-title">Government Boys Degree College</h3>
+                    <div class="education-meta">
+                      <span class="education-period">
+                        <i class="bi bi-calendar-event me-2"></i>2018-2020
+                      </span>
+                      <span class="education-location">
+                        <i class="bi bi-geo-alt me-2"></i>Khairpur, Pakistan
+                      </span>
+                    </div>
+                    <p class="education-type">Intermediate (Pre-Engineering)</p>
+                    <div class="education-subjects">
+                      <span class="subject-tag">
+                        <i class="bi bi-calculator me-1"></i>Mathematics
+                      </span>
+                      <span class="subject-tag">
+                        <i class="bi bi-atom me-1"></i>Physics
+                      </span>
+                      <span class="subject-tag">
+                        <i class="bi bi-flask me-1"></i>Chemistry
+                      </span>
+                    </div>
+                    <div class="education-achievements">
+                      <h4 class="achievements-title">Key Achievements:</h4>
+                      <ul class="achievements-list">
+                        <li><i class="bi bi-award me-2"></i>Top 10% of Class</li>
+                        <li><i class="bi bi-star me-2"></i>Science Club President</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- School -->
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="timeline-content">
+                <div class="education-card">
+                  <div class="education-icon">
+                    <i class="bi bi-book-fill"></i>
+                  </div>
+                  <div class="education-details">
+                    <h3 class="education-title">Government Boys High School</h3>
+                    <div class="education-meta">
+                      <span class="education-period">
+                        <i class="bi bi-calendar-event me-2"></i>2017-2018
+                      </span>
+                      <span class="education-location">
+                        <i class="bi bi-geo-alt me-2"></i>Khairpur, Pakistan
+                      </span>
+                    </div>
+                    <p class="education-type">Matriculation (Science)</p>
+                    <div class="education-subjects">
+                      <span class="subject-tag">
+                        <i class="bi bi-book me-1"></i>General Science
+                      </span>
+                      <span class="subject-tag">
+                        <i class="bi bi-calculator me-1"></i>Mathematics
+                      </span>
+                      <span class="subject-tag">
+                        <i class="bi bi-chat-quote me-1"></i>English
+                      </span>
+                    </div>
+                    <div class="education-achievements">
+                      <h4 class="achievements-title">Key Achievements:</h4>
+                      <ul class="achievements-list">
+                        <li><i class="bi bi-trophy me-2"></i>First Position in Class</li>
+                        <li><i class="bi bi-star me-2"></i>Perfect Attendance Award</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Background Shapes -->
+          <div class="shape-blob education-blob-1"></div>
+          <div class="shape-blob education-blob-2"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+            <p class="section-subtitle">Let's discuss your project or opportunity</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <!-- Contact Form Card -->
+              <div class="contact-card" data-aos="fade-up">
+                <form id="contact-form" class="contact-form">
+                  <div class="row g-4">
+                    <!-- Name Input -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                          </span>
+                          <input 
+                            type="text" 
+                            class="form-control form-control-lg" 
+                            placeholder="Your Name" 
+                            required
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Email Input -->
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="bi bi-envelope-fill"></i>
+                          </span>
+                          <input 
+                            type="email" 
+                            class="form-control form-control-lg" 
+                            placeholder="Your Email" 
+                            required
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Subject Input -->
+                    <div class="col-12">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="bi bi-chat-square-text-fill"></i>
+                          </span>
+                          <input 
+                            type="text" 
+                            class="form-control form-control-lg" 
+                            placeholder="Subject" 
+                            required
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Message Input -->
+                    <div class="col-12">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-text">
+                            <i class="bi bi-chat-dots-fill"></i>
+                          </span>
+                          <textarea 
+                            class="form-control form-control-lg" 
+                            rows="5" 
+                            placeholder="Your Message" 
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-12 text-center">
+                      <button type="submit" class="about-btn about-btn-primary">
+                        <span class="about-btn-content">
+                          <i class="bi bi-send-fill me-2"></i>
+                          <span>Send Message</span>
+                        </span>
+                        <div class="btn-glow"></div>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Contact Info Cards -->
+              <div class="row g-4 mt-5">
+                <!-- Email Card -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                  <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                      <i class="bi bi-envelope-paper-fill"></i>
+                    </div>
+                    <h4>Email</h4>
+                    <p>Suhaillakho.xwave@gmail.com</p>
+                    <a href="mailto:Suhaillakho.xwave@gmail.com" class="contact-link">
+                      Send Email <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                      <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <h4>Phone</h4>
+                    <p>+92-307-8235748</p>
+                    <a href="tel:+923078235748" class="contact-link">
+                      Call Now <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Location Card -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                  <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <h4>Location</h4>
+                    <p>Khairpur, Sindh, Pakistan</p>
+                    <a href="#" class="contact-link">
+                      View on Map <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Background Shapes -->
+        <div class="shape-blob contact-blob-1"></div>
+        <div class="shape-blob contact-blob-2"></div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container">
+        <!-- Footer Top Section -->
+        <div class="footer-top pb-5">
+          <div class="row g-4">
+            <!-- Brand Column -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-brand-section">
+                <a class="footer-brand mb-4 d-inline-block" href="#home">
+                  <span class="text-primary fw-bold">S</span>AL
+                  <span class="brand-dot"></span>
+                </a>
+                <p class="footer-description">
+                  Crafting digital experiences through clean code and modern design. Transforming ideas into responsive, user-friendly websites.
+                </p>
+                <div class="footer-social-links">
+                  <a href="https://linkedin.com/in/suhail-ahmed-lakho" class="social-link" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                    <span class="social-hover">LinkedIn</span>
+                  </a>
+                  <a href="https://github.com/suhail-lakho" class="social-link" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span class="social-hover">GitHub</span>
+                  </a>
+                  <a href="https://twitter.com/suhail_lakho" class="social-link" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                    <span class="social-hover">Twitter</span>
+                  </a>
+                  <a href="https://instagram.com/suhail.lakho" class="social-link" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                    <span class="social-hover">Instagram</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-links-section">
+                <h5 class="footer-title">Quick Links</h5>
+                <div class="footer-links-grid">
+                  <a href="#home" class="footer-link">
+                    <i class="bi bi-house-door"></i>
+                    <span>Home</span>
+                  </a>
+                  <a href="#about" class="footer-link">
+                    <i class="bi bi-person"></i>
+                    <span>About Me</span>
+                  </a>
+                  <a href="#projects" class="footer-link">
+                    <i class="bi bi-code-square"></i>
+                    <span>Projects</span>
+                  </a>
+                  <a href="#skills" class="footer-link">
+                    <i class="bi bi-gear"></i>
+                    <span>Skills</span>
+                  </a>
+                  <a href="#certifications" class="footer-link">
+                    <i class="bi bi-award"></i>
+                    <span>Certifications</span>
+                  </a>
+                  <a href="#contact" class="footer-link">
+                    <i class="bi bi-envelope"></i>
+                    <span>Contact</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Info Column -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-contact-section">
+                <h5 class="footer-title">Get in Touch</h5>
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h6 class="text-start">Location:</h6>
+                      <p>Khairpur, Sindh, Pakistan</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h6 class="text-start">Call Me:</h6>
+                      <p>+92-307-8235748</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h6 class="text-start">Email:</h6>
+                      <p>Suhaillakho.xwave@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-12">
+              <hr class="footer-divider">
+              <div class="d-flex flex-wrap justify-content-between align-items-center py-3">
+                <div class="copyright">
+                  <p class="mb-0">&copy; <span id="currentYear">2024</span> <strong>Suhail Ahmed Lakho</strong>. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                  <a href="#" class="legal-link">Privacy Policy</a>
+                  <span class="separator">|</span>
+                  <a href="#" class="legal-link">Terms of Service</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Background Elements -->
+      <div class="footer-shape-1"></div>
+      <div class="footer-shape-2"></div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
