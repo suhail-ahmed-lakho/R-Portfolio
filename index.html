@@ -3114,7 +3114,132 @@
       }
 
   
+/* ... existing code ... */
 
+/* Add/update these responsive fixes */
+@media (max-width: 768px) {
+  /* Prevent horizontal scroll */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  /* Fix for social links overflow */
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .social-btn {
+    margin: 5px !important; /* Override default margins */
+    font-size: 0.9rem;
+  }
+
+  /* Fix for skill cards overflow */
+  .skill-cards {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  /* Fix for contact form overflow */
+  .contact-card {
+    padding: 1.5rem;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  /* Fix for education timeline overflow */
+  .timeline-content {
+    width: 100%;
+    margin: 0;
+  }
+
+  .education-card {
+    padding: 1.5rem;
+  }
+
+  /* Fix for footer overflow */
+  .footer-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* Fix for project cards overflow */
+  .project-tech-stack {
+    flex-wrap: wrap;
+  }
+
+  .project-tech-pill {
+    margin: 2px;
+  }
+
+  /* Fix for certification cards overflow */
+  .cert-card {
+    padding: 1.5rem;
+  }
+
+  /* Fix for contact info cards */
+  .contact-info-card {
+    padding: 1rem;
+  }
+
+  /* Fix for navbar */
+  .navbar-nav {
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0;
+  }
+}
+
+/* Additional fixes for extra small devices */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  /* Adjust padding for all cards */
+  .education-card,
+  .skill-card,
+  .project-flip-card,
+  .cert-card,
+  .contact-card {
+    padding: 1rem;
+  }
+
+  /* Adjust margins and gaps */
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .col-lg-4,
+  .col-md-6,
+  .col-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
      
 
       .contact-form .contact-btn .btn-content {
